@@ -1,0 +1,62 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header img {
+    width: 10vw;
+    margin-right: 10px;
+    padding: 5px;
+
+
+}
+
+.menu a{
+    text-decoration: nome;
+    color: whitesmoke;
+    font-size: 14pt;
+    margin-left: 15px;
+    
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.text , h2 , p {
+    padding: 10px;
+    margin: 20px 10px 0px 10px;    /* top right bottom left */
+    color: grey;
+    
+}
+
+.text p{
+    font-family: 'Noto Serif KR', sans-serif;
+
+}
+
+.receita{
+    font-size: 11pt;
+    color: black;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+
+
+}
+
+
