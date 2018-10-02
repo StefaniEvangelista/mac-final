@@ -2,6 +2,9 @@ h1 {
     color: black;
     text-align: center;
     font-weight: bold;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 60px;
+
   
 }
 header{
@@ -21,9 +24,11 @@ header img {
 
 .menu a{
     text-decoration: nome;
-    color: whitesmoke;
+    color: #FBEFF2 ;
     font-size: 14pt;
     margin-left: 15px;
+    
+
     
 }
 
@@ -36,18 +41,20 @@ aside{
 
 
 .text , h2 , p {
+    font-family: 'Volkhov', serif;
     padding: 10px;
     margin: 20px 10px 0px 10px;    /* top right bottom left */
-    color: grey;
-    
+    color: #1C1C1C;
+       
 }
 
-.text p{
-    font-family: 'Noto Serif KR', sans-serif;
+.text h3 , h4  {
+    font-family: 'Volkhov', serif;
 
 }
 
 .receita{
+    font-family: 'Volkhov', serif;
     font-size: 11pt;
     color: black;
     line-height: 20px;
@@ -55,8 +62,34 @@ aside{
     margin-left: 15px;
     margin-top: 10px;
     
-
-
 }
 
 
+#batom {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    height: 315px;
+    width: 560px;
+}
+
+#video{
+    justify-content: space-between;
+    float: right;
+         
+}
+
+.rodape{
+    display: flex;
+justify-content: center;
+    width: 200px;
+    height:80px;
+    
+    border-radius: 10px;
+    
+}
+
+
+body{
+    background-color: #CED8F6  ;
+}
